@@ -1,0 +1,30 @@
+import os
+
+# must change this to relative path! when do sync with intelliJ
+# testng_dir_orig = "C:\\urm\\workspace-1.0.0.2-URM\\alma_itest_ux\\src\\test\\resources"
+# all_tests_dir = "C:\\urm\\workspace-1.0.0.2-URM\\alma_itest_ux\\src\\test\\java\\tests"
+
+# fake directories:
+testng_dir_orig = "C:\\RefactoringAssistant\\RefactoringAssistantCode\\test_data\\src\\test\\resources"
+all_tests_dir = "C:\\RefactoringAssistant\\RefactoringAssistantCode\\test_data\\src\\test\\java\\tests"
+
+
+
+
+# this test should be added to intelliJ and should be easily accessible to everyone to commit changes...
+testng_server_csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "testng_servers.csv")
+
+
+
+# these can stay this way
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+output_dir = os.path.join(cur_dir, "..", "..", "output")
+ng_tests_dir_path = os.path.join(output_dir, "tests_containing_ng.txt")
+non_ng_tests_dir_path = os.path.join(output_dir, "tests_do_not_contain_ng.txt")
+temp_dict_test_name_to_path = os.path.join(cur_dir, "..", "temp", 'temp_dict_test_name_to_path.csv')
+temp_dict_testng_to_test_name = os.path.join(cur_dir, "..", "temp", 'temp_dict_testng_to_test_name.csv')
+application_properties_path = os.path.join(cur_dir, "..", 'application_properties.py')
+
+
+refactor_tests_main = os.path.join(cur_dir, "..", "refactor_tests", "main-refactor_tests.py")
+
