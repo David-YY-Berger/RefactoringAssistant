@@ -10,7 +10,7 @@ A Powerful Automated Refactoring Toolkit - Created by Ex Libris Automation
   - Non ng tests - as <ins>xml playlists</ins> for Automation Player, organized by Server
   - Automatically creates new ng test files and directories identical to source (optional)
      
-### Source Compare
+### Test List Compare
 - **Input:** 2 groups of tests (by list of test names, directory path, excel or csv file)
 - **Output:**  3 Lists of tests - tests found in both sources, only source 1, and only source 2
       
