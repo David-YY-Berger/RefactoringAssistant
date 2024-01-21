@@ -26,7 +26,7 @@ A Powerful Automated Refactoring Toolkit - Created by Ex Libris Automation
 - Automatically creates refactored files and directories without build errors
 
 
-## Ideas
+## Ideas for Expansion
 - Directory Organization: Consistency btw project structure and Test Rail Section
 - Configuration Covering: Ensure that tests check all configurations
   - See list of tests (organized per section), and login institutions
