@@ -18,9 +18,9 @@ A Powerful Automated Refactoring Toolkit - Created by Ex Libris Automation
 - **Input:** A group of tests (by list of test names, directory path, excel file)
 - **Output:** Discrepancies between regular and new ng files copies of the tests (if they exist)
   - In <ins>text file</ins>, organized by old and new discrepancies  
-    
-
-             
+<br />
+<br />
+<br />
 ## Capabilitites
 - Maps relations btw test names, path, testng files, and servers
 - Scans test files for key substrings, organizes accordingly
