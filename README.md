@@ -6,18 +6,18 @@ A Powerful Automated Refactoring Toolkit - Created by Ex Libris Automation
 <img src="https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/ead92db1-8a62-416b-a94a-ae525a41f03b" width="50" height="50"> 
 
 ## Tools
-### Refactor Tests
+### 1. Refactor Tests
 - **Input:** A group of tests (by list of test names, directory path, excel file)
 - **Output:** Sorted lists of ng and non ng tests
   - Ng tests - as a <ins>text file</ins> with testname, and ng phrase/s found
   - Non ng tests - as <ins>xml playlists</ins> for Automation Player, organized by Server
   - Automatically creates new ng test files and directories identical to source (optional)
      
-### Test List Compare
+### 2. Test List Compare
 - **Input:** 2 groups of tests (by list of test names, directory path, excel or csv file)
 - **Output:**  3 Lists of tests - tests found in both sources, only source 1, and only source 2
       
-### Discrepancy Tracker
+### 3. Discrepancy Tracker
 - **Input:** A group of tests (by list of test names, directory path, excel file)
 - **Output:** Discrepancies between regular and new ng files copies of the tests (if they exist)
   - In <ins>text file</ins>, organized by old and new discrepancies  
