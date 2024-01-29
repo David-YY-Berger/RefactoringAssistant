@@ -19,17 +19,18 @@ A Powerful Automated Refactoring Toolkit - Created by Ex Libris Automation
   - Optional: Tests organized by section (by Testrail/Jenkins)
       
 ### 3. Discrepancy Tracker
-- **Input:** A group of tests (by list of test names, directory path, excel file)
-- **Output:** Discrepancies between regular and new ng files copies of the tests (if they exist)
-  - In <ins>text file</ins>, organized by old and new discrepancies  
+- **Input:** A group of tests (by excel file)
+- **Output:** (find ng/non ng tests acc to excel file's column 'result' (=passed/passed with no code change)
+  - For ng tests: Shows Discrepancies (old and new) between the tests, in <ins>text file</ins>
+  - For non ng tests: Overwrite the new 'ng' test files with the content of the regular files  
 <br />
 <br />
 <br />
   
 ## Capabilitites
-- Maps relations btw test names, path, testng files, and servers
-- Scans test files for key substrings, organizes accordingly
-- Automatically creates refactored files and directories without build errors
+- Maps relations btw test names, path, content, testng files, and servers
+- Scans test files for key substrings, analyzes results (on large scale)
+- Automatically refactors files and directories without build errors
 
 
 ## Ideas for Expansion
