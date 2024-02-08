@@ -21,8 +21,10 @@ A Powerful Automated Refactoring Toolkit - Created by Ex Libris Automation
 ### 3. Discrepancy Tracker
 - **Input:** A group of tests (by excel file)
 - **Output:** (find ng/non ng tests acc to excel file's column 'result' (=passed/passed with no code change)
-  - For ng tests: Shows Discrepancies (old and new) between the tests, in <ins>text file</ins>
-  - For non ng tests: Overwrite the new 'ng' test files with the content of the regular files  
+  - Outputs all tests marked as 'passed' with no discrepancies in a text file
+  - Outputs all tests marked as 'passed with no code change' but contain discrepancies in another test file
+  - Shows Discrepancies (old and new) between the tests, many text files organized by section
+  - (Optional) Overwrites the new 'ng' test files with the content of the regular files, if 'passed without code change'  
 <br />
 <br />
 <br />
