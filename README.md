@@ -15,8 +15,7 @@ A Powerful Automated Refactoring Toolkit - Created for Ex Libris Automation
      
 ### 2. Test List Compare
 - **Input:** 2 groups of tests (by list of test names, directory path, excel or csv file)
-- **Output:**  3 Lists of tests - tests found in both sources, only source 1, and only source 2
-  - Optional: Tests organized by section (in original excel/csv/directory)
+- **Output:**  3 Lists of tests - tests found in both sources, only source 1, and only source 2. Organized by section found in directory/Excel/CSV
       
 ### 3. Discrepancy Tracker
 - **Input:** A group of tests (by excel file)
