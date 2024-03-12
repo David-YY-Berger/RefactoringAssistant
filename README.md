@@ -5,15 +5,12 @@ A Powerful Automated Refactoring Toolkit - Created for Ex Libris Automation
    
 <img src="https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/ead92db1-8a62-416b-a94a-ae525a41f03b" width="50" height="50"> 
 <br />
-Utulizing knowledge of Compilers, Operating Systems, and Databases, this 
-
+Utulizing knowledge of Compilers, Operating Systems, and Databases, this toolkit enables my team to refactor thousands of test files easily and responsibly. The selenium based tests must be adapted to the product's new Frontend (Angular - 'ng'), and we must create and maintain old test files to check the old product, and new 'ng' test files to check the new frontend. This Readme describes some parts of the toolkit.
 <br />
-
-
 
 ## Tools
 ### 1. Refactor Tests
-- **Input:** A group of tests (by list of test names, directory path, excel file)
+- **Input:** A group of tests (by list of test names, directory path, excel file or csv file)
 - **Output:** Sorted lists of ng and non ng tests
   - Ng tests - as a <ins>text file</ins> with testname, testng, server and ng phrase/s found
   - Non ng tests - as <ins>xml playlists</ins> for Automation Player, organized by Server
@@ -25,11 +22,9 @@ Utulizing knowledge of Compilers, Operating Systems, and Databases, this
       
 ### 3. Discrepancy Tracker
 - **Input:** A group of tests (by excel file)
-- **Output:** (find ng/non ng tests acc to excel file's column 'result' (=passed/passed with no code change)
-  - Outputs all tests marked as 'passed' with no discrepancies in a text file
-  - Outputs all tests marked as 'passed with no code change' but contain discrepancies in another test file
-  - Shows Discrepancies (old and new) between the tests, many text files organized by section
-  - (Optional) Overwrites the new 'ng' test files with the content of the regular files, if 'passed without code change'  
+- **Output:** For all tests marked as 'passed', saves each discrepancy between the ng and non ng test file (every month)
+  - Outputs (.txt) new discrepancies discovered in test files, organized by section, and by function in test file
+  - Outputs (.txt) all tests with path or name inconsistent with our coding scheme
 <br />
 <br />
 <br />
@@ -38,6 +33,7 @@ Utulizing knowledge of Compilers, Operating Systems, and Databases, this
 - Maps relations btw test names, path, content, testng files, and servers
 - Scans test files for key substrings, analyzes results (on large scale)
 - Automatically refactors files and directories without build errors
+- Saves history efficiently, compares current verions, parses Java files by function
 
 
 ## Ideas for Expansion
