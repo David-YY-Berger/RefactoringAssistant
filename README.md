@@ -1,7 +1,7 @@
 # Refactoring Assistant  
 
 
-A Powerful Automated Refactoring Toolkit - Created by Ex Libris Automation   
+A Powerful Automated Refactoring Toolkit - Created for Ex Libris Automation   
    
 <img src="https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/ead92db1-8a62-416b-a94a-ae525a41f03b" width="50" height="50"> 
 
