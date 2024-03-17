@@ -13,7 +13,7 @@ version,user_name,date,time,product,is_success,num_files_created,missing_files_f
 1,hadark,07/02/2024,13:52:11,Refactor_Tests,TRUE,2,,,,2,1,1,,,,,,
 1,hadark,07/02/2024,14:00:46,Refactor_Tests,TRUE,0,,,,107,47,60,,,,,,
 1,yaels,07/02/2024,14:04:43,Test_List_Compare,TRUE,,0,,,,,,,,,,,
-1,yaels,07/02/2024,14:05:30,Test_List_Compare,TRUE,,0,,,,,,,,,,,
+1,yaels,07/02/2024,14:05:30,Test_List_Compare,TRUE,,0,,,,,,,,,,
 1,idob,08/02/2024,10:10:38,Refactor_Tests,TRUE,1,,,,,,,,,,,,
 1.0,idob,2024-02-11,11:47:09,Refactor_Tests,True,1,,,,,,,,,,
 1.0,idob,2024-02-11,17:39:44,Refactor_Tests,True,1,,,,,,,,,,
