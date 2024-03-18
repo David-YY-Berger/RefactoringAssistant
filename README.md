@@ -81,7 +81,10 @@ Discrepancies printed by section:
    
 ![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/8684db67-9bab-4a7a-a26b-7d7cde56b606)
 
-
+### Metric Collection:
+    
+![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/994c7a6d-11d6-496a-ae28-cfdde8363d66)
+   
 
 
 
