@@ -47,18 +47,42 @@ A Powerful Automated Refactoring Toolkit - Created for Ex Libris Automation
  
 
 ## Screenshots
+   
 The app:  
 ![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/f4776a76-2ea7-41e2-b281-059a5f4c0263)
 ![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/e2052b61-1557-4ee6-ad2d-53d1553cb18a)
 ![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/d1e65480-5a52-4092-aa63-ca76fb6d0707)
-#### Text File outputs:
-Finding phrases that must be refactored:       
+    
+### Output Files - Refactor Tests:
+    
+Finding phrases that must be refactored (txt):       
 ![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/b443863c-2144-41d9-aba9-7e9fa853ca63)
-Discovering incorrect file paths for ng files:
+   
+Discovering incorrect file paths for ng files (txt):
 ![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/e6abcb66-60e4-4795-812a-fd1038439f89)
-
-Playlist to Run Tests Automatically (acc to server):
+    
+Playlist to Run Tests Automatically acc to server (xml):
 ![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/f05e0b13-4745-455f-9336-82c1c187ead4)
+
+   
+### List Compare:
+
+![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/40ae6c47-a1d8-4c11-ae4d-8ba194e16a3a)
+    
+![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/8a3d9c73-d317-4d94-b0c4-f41a947206a0)
+   
+    
+### Output Files - Discrepancy Tracker:
+File containing discrepancies (csv):
+![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/3a556358-b94b-4cfb-acd5-b30c8edfae1c)
+   
+Discrepancies printed by section:
+![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/826b45a5-6b54-4fc2-b4cf-ee0991ca8862)
+   
+![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/8684db67-9bab-4a7a-a26b-7d7cde56b606)
+
+
+
 
 
 
