@@ -5,7 +5,7 @@ A Powerful Automated Refactoring Toolkit - Created for Ex Libris Automation
    
 <img src="https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/ead92db1-8a62-416b-a94a-ae525a41f03b" width="50" height="50"> 
 <br />
-Utulizing knowledge of Compilers, Operating Systems, and Databases, this toolkit enables my team to refactor thousands of test files easily and responsibly. The selenium based tests must be adapted to the product's new Frontend (Angular - 'ng'), and we must create and maintain old test files to check the old product, and new 'ng' test files to check the new frontend. This Readme describes some parts of the toolkit.
+**Short Summary:** Utulizing knowledge of Compilers, Operating Systems, and Databases, this toolkit enables my team to refactor thousands of test files easily and responsibly. The selenium based tests must be adapted to the product's new Frontend (Angular - 'ng'), we must create and maintain old test files to check the old product, and new 'ng' test files to check the new frontend. This Readme describes some parts of the toolkit.
 <br />
 
 ## Tools
