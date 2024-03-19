@@ -79,7 +79,7 @@ File containing discrepancies (csv):
 Discrepancies printed by section:
 ![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/826b45a5-6b54-4fc2-b4cf-ee0991ca8862)
    
-![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/8684db67-9bab-4a7a-a26b-7d7cde56b606)
+![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/badf4c41-75dd-43f7-a31f-90e1d07844bb)
 
 ### Metric Collection:
     
