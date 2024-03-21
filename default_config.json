@@ -1,0 +1,55 @@
+{
+    "COMMENT1_NOT_A_VALUE": "This file contains setup parameters for RefactoringAssistant. Be very careful before changing any values. NEVER change the names of the variables. The most relevant thing to change is the keywords..",
+	"ng_suffix": "AT",
+    "tests_dir_name": "tests",
+    "file_ext": ".java",
+    "version": "1.8",
+    
+	"excel_row_of_column_header": 1,
+    "excel_column_with_tests_name": "Test",
+    "excel_column_with_result": "Result",
+    "excel_result_passed": "Passed",
+    "excel_result_passed_wo_code_change": "Passed w/o code change",
+    
+	"csv_column_with_section": "Run",
+    "csv_column_with_test_name": "Autotest name",
+    "csv_column_with_type": "Type",
+    "csv_all_column_headers": ["Autotest name", "Run", "Type"],
+    
+	"test_base_names_to_ignore": ["TestBase", "TestBaseAlma", "None"],
+    
+	"COMMENT2_NOT_A_VALUE": "Options for default_keywords_choice are: 1 (keywords1), 2 (keywords2), 3 (both), 4 (prompt user)",
+	"default_keywords_choice": 1,
+	
+	"COMMENT3_NOT_A_VALUE": "Keywords are case sensitive, and will find any words that contains a keyword as a substring",
+	"keywords1_name": "AllTitles Search",
+	"keywords1": [
+	
+        "allTitles",
+        "repSearchFlatListTitlesPage",
+        "RepSearchFlatListTitlesPage",
+        "clickSearchBibRecordsMatches(",
+        "clickImportedRecords",
+        "clickPreviewRecords(",
+        "cleanupRecords(SetContentType.AllTitles",
+        "createBorrowingRequestFromRepository",
+        "createLendingRequestFromRepository",
+        "createBorrowingRequestFromRepository",
+        "createBorrowingRequestFromRepositoryFromNetwork_FulfNetwork",
+        "createBorrowingRequestFromRepositoryFromNetwork",
+        "createBorrowingRequestFromNetworkRepository",
+        "openBibInNMDEditorReturnsMARCFieldsPage",
+        "openBibInNMDEditor",
+        "clickImportedRecordsFirstButton()",
+        "clickActiveNZicon",
+        "clickActiveIZicon",
+        "runImportVerifySuccessful",
+        "clickImportedRecordsInNZFirstButton()",
+        "clickImportedRecordsInIZFirstButton()",
+        "clickImportedRecordsToNZFirstButton()",
+        "clickImportedRecordsToIZFirstButton()"
+    ],
+	
+	"keywords2_name": "EPD Titles",
+	"keywords2": []
+}
