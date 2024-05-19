@@ -9,7 +9,10 @@ A Powerful Automated Refactoring Toolkit - Created for Ex Libris Automation
 <br />
     
 <ins>Screenshots below </ins>
-     
+   
+   ![image](https://github.com/David-YY-Berger/RefactoringAssistant/assets/91850832/38ac64fd-c429-4f5f-a73a-6fae34ee9a36)
+  
+        
 ## Tools
 ### 1. Refactor Tests
 - **Input:** A group of tests (by list of test names, directory path, excel file or csv file)
